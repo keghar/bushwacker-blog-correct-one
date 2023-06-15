@@ -4,12 +4,12 @@ import {nav} from '../data/nav'
 
 ---
 
-<header class="navbar bg-base-100">
+<header class="navbar bg-base-100 p-3">
 	<div class="flex-1"><a href="/"><h2 class="text-primary text-2xl uppercase font-bold">
 		{SITE_TITLE}
 	</h2></a></div>
 	
-	<div class="flex-none">
+	<div class="flex-none z-10">
 		<ul class="menu menu-horizontal p-0 hidden md:flex">
 		  {nav.map(item => (
 			<li>
