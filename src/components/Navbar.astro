@@ -18,18 +18,27 @@ import {nav} from '../data/nav'
 		  ))}
 		</ul>
 		<slot/>
-		<div class="dropdown dropdown-end md:hidden">
-		  <label tabindex={0} class="btn btn-ghost btn-square">
+		<div class="drawer drawer-end md:hidden">
+			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
+			<div class="drawer-content">
+		  <label for="my-drawer" class="btn btn-ghost btn-square">
 			<svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
 		  </label>
-		  <ul tabindex={0} class="dropdown-content menu p-2 bg-base-200 rounded-box w-52 menu-compact">
+		  </div>
+		  <div class="drawer-side ">
+			
+			<label for="my-drawer" class="drawer-overlay"></label>
+			
+		  <ul class="menu p-10 w-80 h-full bg-base-200 text-base-content ">
+			
 			{nav.map(item => (
-			  <li>
+			  <li class="place-items-center text-xl font-bold">
 				<a href={item.slug}>{item.title}</a>
 			  </li>
 			))}
+		
 		  </ul>
 		</div>
-	  </div>
+	  </div></div></div>
 	</div>
 </header>

@@ -2,7 +2,7 @@
 title: New Place on the Gulf
 date: 2022-04-09
 author: Pouya
-desc: I'm baby bicycle rights Brooklyn lumbersexual, master cleanse vibecession prism food truck plaid activated charcoal stumptown cred praxis pok pok. Kinfolk ascot godard iceland fit. Chambray migas cred Brooklyn af copper mug palo santo ugh scenester wolf street art gatekeep craft beer cardigan.
+desc: I'm baby bicycle rights Brooklyn, master cleanse vibecession prism food truck plaid activated charcoal stumptown cred praxis pok pok. Kinfolk ascot godard iceland fit. Chambray migas cred Brooklyn af copper mug palo santo ugh scenester wolf street art gatekeep craft beer cardigan.
 img: https://picsum.photos/200/200
 imgWidth: 800
 imgHeight: 500
